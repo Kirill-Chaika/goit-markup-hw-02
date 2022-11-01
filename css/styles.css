@@ -9,11 +9,15 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    color: #000000;
 }
 .logo:hover,
 .logo:focus, 
 .logo:active {
     background-color: blue;
+}
+.web span {
+    color: #2196F3
 }
 /* header */
 .header a {
@@ -130,6 +134,9 @@ body {
     color: #212121;
 }
 /* Футер */
+.footer a {
+    color: #FFFFFF;
+}
 .pages a {
     font-weight: 400;
     font-size: 14px;
