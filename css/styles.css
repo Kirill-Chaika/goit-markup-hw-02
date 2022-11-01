@@ -15,17 +15,23 @@ body {
     color: blue;
 }
 /* header */
-.header {
+.header a {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: #212121;
 }
-.posted {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+.header:hover,
+.header:focus {
+    color: blue;
+}
+.posted a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
 }
 /* Hero-main */
 .hero,
@@ -39,6 +45,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    color: #FFFFFF;
 }
 .hero-btn {
     font-weight: 700;
@@ -48,13 +55,27 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.hero:hover,
+.hero:focus {
+    color: blue;
 }
 /* Опис проєктів */
+.about h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 .list-title {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+    color: #757575;
 }
 .list-project {
     font-weight: 400;
@@ -64,13 +85,13 @@ body {
     color: #757575;
 }
 /* Чим займається кожен з команди */
-.list-team {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
+.section h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+}
 .list-names {
     font-weight: 500;
     font-size: 16px;
@@ -78,8 +99,16 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
+.list-team {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 /* Hero-portfolio */
-.hero-portfolio {
+.hero-portfolio button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -91,14 +120,21 @@ body {
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
+    color: #212121;
 }
 /* Футер */
-.pages {
-    font-family: 'Roboto';
-    font-style: normal;
+.pages a {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+.link-pages {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
 }
