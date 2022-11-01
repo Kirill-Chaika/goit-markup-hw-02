@@ -11,8 +11,9 @@ body {
     letter-spacing: 0.03em;
 }
 .logo:hover,
-.logo:focus {
-    color: blue;
+.logo:focus, 
+.logo:active {
+    background-color: blue;
 }
 /* header */
 .header a {
@@ -22,9 +23,10 @@ body {
     letter-spacing: 0.02em;
     color: #212121;
 }
-.header:hover,
-.header:focus {
-    color: blue;
+.header a:hover,
+.header a:focus,
+.header a:active {
+    background-color: blue;
 }
 .posted a {
     font-weight: 500;
@@ -32,6 +34,11 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
+}
+.posted a:hover,
+.posted a:focus,
+.posted a:active {
+    background-color: blue;
 }
 /* Hero-main */
 .hero,
@@ -58,8 +65,8 @@ body {
     background-color: #2196F3;
     color: #FFFFFF;
 }
-.hero:hover,
-.hero:focus {
+.hero-btn:hover,
+.hero-btn:focus {
     color: blue;
 }
 /* Опис проєктів */
